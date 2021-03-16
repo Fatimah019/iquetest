@@ -1,0 +1,102 @@
+/* media queries */
+@media screen and (max-width: 900px) {
+  .pg-four-con,
+  .taskone-pg-three table,
+  .taskone-pg-three form,
+  .billing-form,
+  .task-one-pg-1 {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-details {
+    flex-direction: column;
+  }
+
+  .pg-four-con,
+  .taskone-pg-three table,
+  .taskone-pg-three form,
+  .billing-form,
+  .task-one-pg-1 {
+    width: 70%;
+  }
+  .input-select-location {
+    width: 50%;
+    margin-left: 10px;
+  }
+  .fa-check {
+    padding: 20px;
+    font-size: 35px;
+  }
+  .items-payment,
+  .total,
+  .thead,
+  .card-details label {
+    width: 85%;
+  }
+
+  .thead p {
+    font-size: 25px;
+  }
+  tr td {
+    font-size: 22px;
+  }
+  .confirm-payment {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .pg-four-con,
+  .taskone-pg-three table,
+  .taskone-pg-three form,
+  .billing-form,
+  .task-one-pg-1 {
+    width: 80%;
+  }
+  .location {
+    flex-direction: column;
+  }
+  .location label,
+  .input-select-location {
+    width: 100%;
+  }
+  .input-select-location {
+    margin-left: 0px;
+  }
+  .card-details {
+    flex-direction: column;
+  }
+
+  .fa-check {
+    font-size: 30px;
+  }
+
+  .items-payment,
+  .total,
+  .thead,
+  .card-details label {
+    width: 90%;
+  }
+  .thead p {
+    font-size: 24px;
+  }
+  tr td {
+    font-size: 20px;
+  }
+  .confirm-payment {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .pg-four-con,
+  .taskone-pg-three table,
+  .taskone-pg-three form,
+  .billing-form,
+  .task-one-pg-1 {
+    width: 90%;
+  }
+  .fa-check {
+    font-size: 25px;
+  }
+}

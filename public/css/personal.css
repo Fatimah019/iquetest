@@ -1,0 +1,30 @@
+.task-one-pg-1 {
+  width: 60%;
+  margin: auto;
+}
+.task-one-pg-1 div p {
+  font-weight: 600;
+}
+.task-one-pg-1 div .desc {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+}
+.location {
+  display: flex;
+  justify-content: space-between;
+}
+.input-select-location {
+  width: 50%;
+  margin-left: 40px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.input-select {
+  width: 100%;
+  padding: 3.5% 0;
+  border: 1px solid rgba(12, 12, 85, 0.787);
+  background-color: #fff;
+  border-radius: 10px;
+}

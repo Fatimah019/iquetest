@@ -1,0 +1,45 @@
+/* page four */
+.taskone-pg-four {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  overflow-y: auto;
+}
+.pg-four-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: 4px 8px rgba(121, 120, 120, 0.3);
+  overflow-y: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.fa-check {
+  background-color: #fff;
+  box-shadow: 4px 4px rgba(121, 120, 120, 0.3);
+  border-radius: 100%;
+  padding: 30px;
+  font-size: 65px;
+  color: green;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.confirm-payment {
+  width: 70%;
+}
+.confirm-payment h1 {
+  color: rgba(12, 12, 85, 0.787);
+}
+.confirm-payment p {
+  color: rgb(73, 73, 73);
+}
+.home-link {
+  color: rgba(199, 139, 28, 0.918);
+  font-size: 24px;
+  border-bottom: 3px solid rgba(199, 139, 28, 0.918);
+}
