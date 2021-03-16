@@ -8,15 +8,15 @@ export default class BillingInfo extends Component {
       <div>
         <Menu />
         <form className="billing-form">
-          <label>
+          <div>
             <p>
               Name on Card <sup>*</sup>
             </p>
             <label class="flex align-center justify-content-center input">
               <input type="text" placeholder="Opara Linus Ahmed" />
             </label>
-          </label>
-          <label>
+          </div>
+          <div>
             <p>
               Card Type <sup>*</sup>
             </p>
@@ -27,54 +27,23 @@ export default class BillingInfo extends Component {
                 <option>Master</option>
               </select>
             </label>
-          </label>
-          {/* last line */}
-          {/* <label className="flex space-between">
-            <label className="card-details">
+          </div>
+          <div className="card-details">
+            <div>
               <p>
-                Name on Card <sup>*</sup>
+                Card details <sup>*</sup>
               </p>
               <label class="flex align-center justify-content-center input">
-                <input type="text" placeholder="Opara Linus Ahmed" />
-              </label>
-            </label>
-            <label className="card-no">
-              <label>
-                <p>
-                  Name on Card <sup>*</sup>
-                </p>
-                <label class="flex align-center justify-content-center input">
-                  <input type="text" placeholder="Opara Linus Ahmed" />
-                </label>
-              </label>
-              <label>
-                <p>
-                  Name on Card <sup>*</sup>
-                </p>
-                <label class="flex align-center justify-content-center input">
-                  <input type="text" placeholder="Opara Linus Ahmed" />
-                </label>
-              </label>
-            </label>
-          </label> */}
-          {/* <div className="card-details">
-            <div className="card-no">
-              <label>
-                <p>
-                  Card details <sup>*</sup>
-                </p>
-                <label class="flex align-center justify-content-center input">
-                  <input
-                    type="text"
-                    placeholder="44960  44960  44960 44960"
-                    className="text-center"
-                  />
-                </label>
+                <input
+                  type="text"
+                  placeholder="44960  44960  44960 44960"
+                  className="text-center"
+                />
               </label>
             </div>
-            <div className="flex space-between text-center card-details-g align-center flex-end">
-              <label className="text-center">
-                <p>
+            <div className="flex align-center card-info">
+              <div>
+                <p className="text-center">
                   Expiry date <sup>*</sup>
                 </p>
                 <label class="flex align-center justify-content-center input">
@@ -84,9 +53,9 @@ export default class BillingInfo extends Component {
                     className="text-center"
                   />
                 </label>
-              </label>
-              <label className="text-center">
-                <p>
+              </div>
+              <div>
+                <p className="text-center">
                   CVV <sup>*</sup>
                 </p>
                 <label class="flex align-center justify-content-center input">
@@ -96,10 +65,9 @@ export default class BillingInfo extends Component {
                     className="text-center"
                   />
                 </label>
-              </label>
+              </div>
             </div>
           </div>
-          <br /> */}
 
           <div class="billing-final">
             <div className="flex align-center forward">

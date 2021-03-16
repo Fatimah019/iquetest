@@ -10,10 +10,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .card-details {
-    flex-direction: column;
-  }
-
   .pg-four-con,
   .taskone-pg-three table,
   .taskone-pg-three form,
@@ -28,13 +24,26 @@
     padding: 20px;
     font-size: 35px;
   }
-  .items-payment,
-  .total,
-  .thead,
-  .card-details label {
-    width: 85%;
+  .card-details {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-info {
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-info div {
+    width: 90%;
+    margin-left: 0px;
   }
 
+  .items-payment,
+  .total,
+  .thead {
+    width: 85%;
+  }
   .thead p {
     font-size: 25px;
   }
@@ -60,10 +69,6 @@
     width: 100%;
     margin-left: 0px;
   }
-  .card-details {
-    flex-direction: column;
-  }
-
   .fa-check {
     font-size: 30px;
   }
