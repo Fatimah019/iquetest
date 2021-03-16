@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Menu from "../Menu";
 
 class TaskOne extends React.Component {
   render() {
     return (
       <div className="justify-content-center align-center">
+        <Menu />
         <div className="task-one-pg-1">
           <form>
             <div>

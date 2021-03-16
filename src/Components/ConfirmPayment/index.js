@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-
+import Menu from "../Menu";
 export default class PageThree extends Component {
   render() {
     return (
       <div className="taskone-pg-three">
+        <Menu />
         <table>
           <thead>
             <div className="flex space-between thead">
