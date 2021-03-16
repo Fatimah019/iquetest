@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Menu from "../Menu";
 
-class TaskOne extends React.Component {
+class PersonalInfo extends React.Component {
   render() {
     return (
-      <div className="justify-content-center align-center">
+      <div>
         <Menu />
         <div className="task-one-pg-1">
           <form>
@@ -42,16 +42,18 @@ class TaskOne extends React.Component {
               </label>
             </div>
 
-            <div className="location">
-              <label>
+            <div className="locations">
+              <div className="input-location">
+                {" "}
                 <p>Local Government</p>
-                <label className="flex align-center justify-content-center input">
+                <label class="flex align-center justify-content-center input">
                   <input type="text" placeholder="Surulere" />
                 </label>
-              </label>
-              <label className="input-select-location">
+              </div>
+
+              <div class="input-select-location">
                 <p>State</p>
-                <label className="flex align-center justify-content-center input-select">
+                <label className="flex align-center justify-content-center input ">
                   <select>
                     <option>Lagos</option>
                     <option>Abuja</option>
@@ -59,7 +61,7 @@ class TaskOne extends React.Component {
                     <option>Anambra</option>
                   </select>
                 </label>
-              </label>
+              </div>
             </div>
 
             <div className="flex align-center forward">
@@ -77,4 +79,4 @@ class TaskOne extends React.Component {
   }
 }
 
-export default TaskOne;
+export default PersonalInfo;

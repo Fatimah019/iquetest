@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-class PageFour extends Component {
+class FinishPayment extends Component {
   render() {
     return (
       <div className="taskone-pg-four">
@@ -25,4 +25,4 @@ class PageFour extends Component {
   }
 }
 
-export default PageFour;
+export default FinishPayment;

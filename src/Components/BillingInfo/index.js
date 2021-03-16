@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Menu from "../Menu";
 
-export default class PageTwo extends Component {
+export default class BillingInfo extends Component {
   render() {
     return (
       <div>

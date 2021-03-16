@@ -16,17 +16,17 @@ export default class Menu extends React.Component {
     });
   };
   render() {
-    const style = {
-      borderBottom: `20px solid ${this.state.borderColor}`,
-      color: this.state.color,
-    };
+    // const style = {
+    //   borderBottom: `20px solid ${this.state.borderColor}`,
+    //   color: this.state.color,
+    // };
     return (
       <div class="task-one-header">
         <h1>Complete your Purchase</h1>
         {/* tabs */}
         <div>
           <ul className="flex space-between">
-            <li style={style} onClick={() => this.changeClass("red")}>
+            <li>
               <Link to="/" className="links no-text-wrap">
                 Personal Info
               </Link>

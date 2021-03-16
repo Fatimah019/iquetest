@@ -6,13 +6,6 @@ body {
   padding: 0px;
   margin: 0px;
   height: 100%;
-  /* background: linear-gradient(
-    -10deg,
-    rgba(255, 255, 255, 0.9),
-    35%,
-    rgba(139, 40, 148, 0.3) center center / 400px 200px,
-    no-repeat
-  ); */
   background: linear-gradient(rgba(219, 145, 195, 0.3), rgb(255, 255, 255));
   background-repeat: no-repeat;
   background-size: contain;
@@ -28,7 +21,7 @@ h2 {
 input,
 select,
 p {
-  font-size: 24px;
+  font-size: 23px;
 }
 li {
   list-style-type: none;
@@ -71,8 +64,8 @@ a {
 }
 .input {
   width: 100%;
-  padding: 2% 0;
-  border: 1px solid rgba(12, 12, 85, 0.787);
+  padding: 23px 0;
+  border: 1px solid rgba(12, 12, 85, 0.7);
   background-color: #fff;
   border-radius: 10px;
 }
@@ -89,10 +82,10 @@ select {
   background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)
     no-repeat right #ddd;
   -webkit-appearance: none;
+  appearance: none;
   background-color: transparent;
 }
-form,
-label {
+form {
   width: 100%;
   margin: auto;
 }
@@ -121,20 +114,20 @@ label {
   margin-bottom: 60px;
 }
 sup {
-  color: red;
+  color: rgb(240, 6, 6);
 }
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 50px;
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
   }
   p,
-  .input {
-    padding: 2.5% 0;
-  }
   input,
   select {
-    font-size: 22;
+    font-size: 21;
   }
   /* static stylings */
   .btn {
@@ -154,10 +147,10 @@ sup {
 
 @media screen and (max-width: 600px) {
   h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
   h2 {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .btn {
@@ -181,15 +174,15 @@ sup {
     font-size: 28px;
   }
   h2 {
-    font-size: 16px;
+    font-size: 23px;
   }
   h3 {
-    font-size: 20px;
+    font-size: 22px;
   }
   p,
   input,
   select {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .link-page {

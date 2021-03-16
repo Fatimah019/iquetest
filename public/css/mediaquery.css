@@ -21,9 +21,8 @@
   .task-one-pg-1 {
     width: 70%;
   }
-  .input-select-location {
-    width: 50%;
-    margin-left: 10px;
+  .task-one-pg-1 form div .desc {
+    font-size: 18px;
   }
   .fa-check {
     padding: 20px;
@@ -54,14 +53,11 @@
   .task-one-pg-1 {
     width: 80%;
   }
-  .location {
+  .locations {
     flex-direction: column;
   }
-  .location label,
   .input-select-location {
     width: 100%;
-  }
-  .input-select-location {
     margin-left: 0px;
   }
   .card-details {
@@ -95,6 +91,9 @@
   .billing-form,
   .task-one-pg-1 {
     width: 90%;
+  }
+  .task-one-pg-1 form div .desc {
+    font-size: 19px;
   }
   .fa-check {
     font-size: 25px;
