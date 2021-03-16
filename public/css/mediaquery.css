@@ -27,6 +27,7 @@
   .card-details {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
   .card-details div {
     width: 100%;
@@ -38,7 +39,7 @@
     justify-content: space-between;
   }
   .card-info div {
-    width: 95%;
+    width: 98%;
     margin-left: 0px;
   }
 
