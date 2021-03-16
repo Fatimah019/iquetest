@@ -43,7 +43,7 @@ export default class BillingInfo extends Component {
             </div>
             <div className="flex align-center card-info">
               <div>
-                <p className="text-center">
+                <p className="text-center exp-txt">
                   Expiry date <sup>*</sup>
                 </p>
                 <label class="flex align-center justify-content-center input">

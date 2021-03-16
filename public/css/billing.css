@@ -24,6 +24,12 @@
 .card-info div {
   width: 90%;
   margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.exp-txt {
+  white-space: nowrap;
 }
 .billing-final {
   width: 100%;
