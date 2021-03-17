@@ -7,24 +7,30 @@
 }
 .task-one-header div ul {
   padding: 0;
-  padding-bottom: 30px;
   margin: 40px 0px;
   border-bottom: 1px solid #000;
+  /* overflow: auto; */
+  padding-top: 35px;
+  padding-bottom: 35px;
   overflow-x: auto;
 }
+.task-one-header ul li {
+  position: relative;
+}
+.task-one-header ul li .links,
 .inactive {
   color: rgba(12, 12, 85, 0.4);
   font-size: 28px;
 }
 
 .active.active::before {
-  content: " PersonalBilingConfirm";
+  content: "sdddddddddddddd";
   color: transparent;
   background-color: rgb(199, 139, 28);
   font-size: 24px;
   position: absolute;
   border-radius: 20px;
-  top: 22%;
+  top: 150%;
 }
 .active {
   color: rgb(199, 139, 28);
@@ -33,26 +39,41 @@
 }
 
 @media screen and (max-width: 768px) {
+  .active.active::before {
+    content: "sdddddddddddd";
+  }
   .task-one-header {
     width: 70%;
   }
-  .task-one-header ul li .links {
+  .task-one-header ul li .links,
+  .active,
+  .inactive {
     font-size: 24px;
   }
 }
 @media screen and (max-width: 600px) {
+  .active.active::before {
+    content: "sdddddddddd";
+  }
   .task-one-header {
     width: 80%;
   }
-  .task-one-header ul li .links {
-    font-size: 22px;
+  .task-one-header ul li .links,
+  .active,
+  .inactive {
+    font-size: 21px;
   }
 }
 @media screen and (max-width: 480px) {
+  .active.active::before {
+    content: "sdddddd";
+  }
   .task-one-header {
     width: 90%;
   }
-  .task-one-header ul li .links {
-    font-size: 20px;
+  .task-one-header ul li .links,
+  .active,
+  .inactive {
+    font-size: 19px;
   }
 }

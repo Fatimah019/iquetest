@@ -34,18 +34,25 @@ export default class Menu extends React.Component {
               <li>
                 <Link
                   to="/"
-                  className={activeClasses[0] ? "active" : "inactive"}
+                  className={
+                    activeClasses[0]
+                      ? "active no-text-wrap"
+                      : "inactive links no-text-wrap"
+                  }
                   onClick={() => this.changeClass(0)}
                 >
                   Personal Info
                 </Link>
               </li>
-              {/* <span class="active"> Personal Info</span> */}
             </div>
             <li>
               <Link
                 to="/billing"
-                className={activeClasses[1] ? "active" : "inactive"}
+                className={
+                  activeClasses[1]
+                    ? "no-text-wrap active"
+                    : "inactive links no-text-wrap"
+                }
                 onClick={() => this.changeClass(1)}
               >
                 Biling Info
@@ -54,7 +61,11 @@ export default class Menu extends React.Component {
             <li>
               <Link
                 to="/confirm-payment"
-                className={activeClasses[2] ? "active" : "inactive"}
+                className={
+                  activeClasses[2]
+                    ? "no-text-wrap active"
+                    : "inactive links no-text-wrap"
+                }
                 onClick={() => this.changeClass(2)}
               >
                 Confirm Payment
