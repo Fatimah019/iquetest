@@ -50,10 +50,6 @@ li {
   }
 }
 
-li {
-  position: relative;
-  /* height: 25%; */
-}
 .active {
   content: " Personal Info";
   color: transparent;

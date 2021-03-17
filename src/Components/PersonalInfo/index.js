@@ -14,6 +14,7 @@ class PersonalInfo extends React.Component {
               <label class="flex align-center justify-content-center input">
                 <input type="text" placeholder="Opara Linus Ahmed" />
               </label>
+              <br />
             </div>
             <div>
               <p>
@@ -25,6 +26,7 @@ class PersonalInfo extends React.Component {
               <label class="flex align-center justify-content-center input">
                 <input type="email" placeholder="OparaLinusAhmed@devmail.com" />
               </label>
+              <br />
             </div>
             <div>
               <p>Address 1</p>
@@ -34,12 +36,14 @@ class PersonalInfo extends React.Component {
                   placeholder="The Address of the user goes here"
                 />
               </label>
+              <br />
             </div>
             <div>
               <p>Address 2</p>
               <label class="flex align-center justify-content-center input">
                 <input type="text" placeholder="and here" />
               </label>
+              <br />
             </div>
 
             <div className="locations">
@@ -49,6 +53,7 @@ class PersonalInfo extends React.Component {
                 <label class="flex align-center justify-content-center input">
                   <input type="text" placeholder="Surulere" />
                 </label>
+                <br />
               </div>
 
               <div class="input-select-location">
@@ -61,6 +66,7 @@ class PersonalInfo extends React.Component {
                     <option>Anambra</option>
                   </select>
                 </label>
+                <br />
               </div>
             </div>
 

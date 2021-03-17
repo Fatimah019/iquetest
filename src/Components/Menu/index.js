@@ -46,6 +46,8 @@ export default class Menu extends React.Component {
               </Link>
             </li>
           </ul>
+          {/* <hr id="hr-menu" />
+          <span class="border-active"></span> */}
         </div>
       </div>
     );

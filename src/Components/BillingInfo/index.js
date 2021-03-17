@@ -15,6 +15,7 @@ export default class BillingInfo extends Component {
             <label class="flex align-center justify-content-center input">
               <input type="text" placeholder="Opara Linus Ahmed" />
             </label>
+            <br />
           </div>
           <div>
             <p>
@@ -27,6 +28,7 @@ export default class BillingInfo extends Component {
                 <option>Master</option>
               </select>
             </label>
+            <br />
           </div>
           <div className="card-details">
             <div>
