@@ -49,3 +49,16 @@ li {
     font-size: 20px;
   }
 }
+
+li {
+  position: relative;
+  /* height: 25%; */
+}
+.active {
+  content: " Personal Info";
+  color: transparent;
+  background-color: yellow;
+  font-size: 28px;
+  position: absolute;
+  border-radius: 20px;
+}

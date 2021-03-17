@@ -79,8 +79,7 @@
 
   .items-payment,
   .total,
-  .thead,
-  .card-details label {
+  .thead {
     width: 90%;
   }
   .thead p {
@@ -102,7 +101,7 @@
     width: 90%;
   }
   .task-one-pg-1 form div .desc {
-    font-size: 19px;
+    font-size: 18px;
   }
   .fa-check {
     font-size: 25px;

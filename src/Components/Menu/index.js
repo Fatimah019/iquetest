@@ -26,11 +26,15 @@ export default class Menu extends React.Component {
         {/* tabs */}
         <div>
           <ul className="flex space-between">
-            <li>
-              <Link to="/" className="links no-text-wrap">
-                Personal Info
-              </Link>
-            </li>
+            <div>
+              {" "}
+              <li>
+                <Link to="/" className="links no-text-wrap">
+                  Personal Info
+                </Link>
+              </li>
+              {/* <span class="active"> Personal Info</span> */}
+            </div>
             <li>
               <Link to="/billing" className="links no-text-wrap">
                 Biling Info
