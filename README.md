@@ -1,3 +1,13 @@
+## Links to the hosted pages
+The first page [Personal Info](https://iquetest-fatimah.netlify.app/).
+
+The second page [Billing Info](https://iquetest-fatimah.netlify.app/billing).
+
+The third page [Confirm Payment](https://iquetest-fatimah.netlify.app/confirm-payment).
+
+The fourth page [Complete Payment](https://iquetest-fatimah.netlify.app/payment-complete).
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
