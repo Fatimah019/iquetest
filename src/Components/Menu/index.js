@@ -5,21 +5,24 @@ export default class Menu extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      active: "active",
-      normal: "normal",
+      activeClasses: [false, false, false],
     };
   }
-  changeClass = () => {
-    this.setState({
-      active: "normal",
-      normal: "active",
-    });
+  changeClass = (index) => {
+    const activeClasses = [
+      ...this.state.activeClasses.slice(0, index),
+      !this.state.activeClasses[index],
+      this.state.activeClasses.slice(index + 1),
+    ].flat();
+    this.setState({ activeClasses });
   };
+
   render() {
     // const style = {
     //   borderBottom: `20px solid ${this.state.borderColor}`,
     //   color: this.state.color,
     // };
+    const activeClasses = this.state.activeClasses.slice();
     return (
       <div class="task-one-header">
         <h1>Complete your Purchase</h1>
@@ -31,12 +34,8 @@ export default class Menu extends React.Component {
               <li>
                 <Link
                   to="/"
-                  className={
-                    this.state.active
-                      ? `${this.state.normal} links no-text-wrap links no-text-wrap`
-                      : this.state.active
-                  }
-                  onClick={this.changeClass}
+                  className={activeClasses[0] ? "active" : "inactive"}
+                  onClick={() => this.changeClass(0)}
                 >
                   Personal Info
                 </Link>
@@ -46,12 +45,8 @@ export default class Menu extends React.Component {
             <li>
               <Link
                 to="/billing"
-                className={
-                  this.state.active
-                    ? `${this.state.normal} links no-text-wrap links no-text-wrap`
-                    : this.state.active
-                }
-                onClick={this.changeClass}
+                className={activeClasses[1] ? "active" : "inactive"}
+                onClick={() => this.changeClass(1)}
               >
                 Biling Info
               </Link>
@@ -59,12 +54,8 @@ export default class Menu extends React.Component {
             <li>
               <Link
                 to="/confirm-payment"
-                className={
-                  this.state.active
-                    ? `${this.state.normal} links no-text-wrap links no-text-wrap`
-                    : this.state.active
-                }
-                onClick={this.changeClass}
+                className={activeClasses[2] ? "active" : "inactive"}
+                onClick={() => this.changeClass(2)}
               >
                 Confirm Payment
               </Link>
