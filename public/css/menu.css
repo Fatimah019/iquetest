@@ -12,8 +12,8 @@
   /* overflow: auto; */
   padding-top: 35px;
   padding-bottom: 35px;
-  overflow-x: auto;
 }
+
 .task-one-header ul li {
   position: relative;
 }
@@ -24,7 +24,7 @@
 }
 
 .active.active::before {
-  content: "sdddddddddddddd";
+  content: "dddddddddddddd";
   color: transparent;
   background-color: rgb(199, 139, 28);
   font-size: 24px;
@@ -39,9 +39,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .active.active::before {
-    content: "sdddddddddddd";
-  }
   .task-one-header {
     width: 70%;
   }
@@ -52,8 +49,11 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .task-one-header div ul {
+    overflow-x: auto;
+  }
   .active.active::before {
-    content: "sdddddddddd";
+    content: "ddddddddddd";
   }
   .task-one-header {
     width: 80%;
@@ -66,7 +66,7 @@
 }
 @media screen and (max-width: 480px) {
   .active.active::before {
-    content: "sdddddd";
+    content: "dddddddd";
   }
   .task-one-header {
     width: 90%;
