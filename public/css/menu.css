@@ -7,6 +7,7 @@
 }
 .task-one-header div ul {
   padding: 0;
+  padding-bottom: 30px;
   margin: 40px 0px;
   border-bottom: 1px solid #000;
   overflow-x: auto;
@@ -17,14 +18,30 @@
   font-size: 28px;
 }
 
-li {
+.normal {
   background-color: transparent;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   padding-bottom: 30px;
   position: relative;
 }
 
+.active::after {
+  content: " Personal Info";
+  color: transparent;
+  background-color: rgb(199, 139, 28);
+  /* font-size: 24px; */
+  position: absolute;
+  border-radius: 20px;
+  top: 22%;
+  /* left: 20%; */
+  width: 10%;
+}
+li.active::after {
+  content: " Personal Info";
+  color: yellow;
+  background-color: yellow;
+}
 @media screen and (max-width: 768px) {
   .task-one-header {
     width: 70%;
@@ -50,11 +67,11 @@ li {
   }
 }
 
-.active {
+/* .active {
   content: " Personal Info";
   color: transparent;
   background-color: yellow;
   font-size: 28px;
   position: absolute;
   border-radius: 20px;
-}
+} */

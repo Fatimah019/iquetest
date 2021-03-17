@@ -5,14 +5,14 @@ export default class Menu extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      color: "rgba(12, 12, 85, 0.4)",
-      borderColor: "transparent",
+      active: "active",
+      normal: "normal",
     };
   }
-  changeClass = (style) => {
+  changeClass = () => {
     this.setState({
-      color: "rgb(190, 190, 33)",
-      borderColor: "2px solid rgb(190, 190, 33)",
+      active: "normal",
+      normal: "active",
     });
   };
   render() {
@@ -29,19 +29,43 @@ export default class Menu extends React.Component {
             <div>
               {" "}
               <li>
-                <Link to="/" className="links no-text-wrap">
+                <Link
+                  to="/"
+                  className={
+                    this.state.active
+                      ? `${this.state.normal} links no-text-wrap links no-text-wrap`
+                      : this.state.active
+                  }
+                  onClick={this.changeClass}
+                >
                   Personal Info
                 </Link>
               </li>
               {/* <span class="active"> Personal Info</span> */}
             </div>
             <li>
-              <Link to="/billing" className="links no-text-wrap">
+              <Link
+                to="/billing"
+                className={
+                  this.state.active
+                    ? `${this.state.normal} links no-text-wrap links no-text-wrap`
+                    : this.state.active
+                }
+                onClick={this.changeClass}
+              >
                 Biling Info
               </Link>
             </li>
             <li>
-              <Link to="/confirm-payment" className="links no-text-wrap">
+              <Link
+                to="/confirm-payment"
+                className={
+                  this.state.active
+                    ? `${this.state.normal} links no-text-wrap links no-text-wrap`
+                    : this.state.active
+                }
+                onClick={this.changeClass}
+              >
                 Confirm Payment
               </Link>
             </li>
