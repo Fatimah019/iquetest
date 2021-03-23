@@ -9,7 +9,6 @@
   padding: 0;
   margin: 40px 0px;
   border-bottom: 1px solid #000;
-  /* overflow: auto; */
   padding-top: 35px;
   padding-bottom: 35px;
 }
@@ -17,23 +16,23 @@
 .task-one-header ul li {
   position: relative;
 }
-.task-one-header ul li .links,
 .inactive {
   color: rgba(12, 12, 85, 0.4);
   font-size: 28px;
 }
-
 .active.active::before {
-  content: "dddddddddddddd";
+  content: "ddddddddddddd";
   color: transparent;
-  background-color: rgb(199, 139, 28);
+  background-color: rgb(255, 102, 0);
   font-size: 24px;
   position: absolute;
   border-radius: 20px;
   top: 150%;
+  width: 100%;
 }
+
 .active {
-  color: rgb(199, 139, 28);
+  color: rgb(255, 102, 0);
   font-size: 28px;
   font-weight: 700;
 }

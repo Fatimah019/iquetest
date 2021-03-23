@@ -10,7 +10,9 @@ export default class ConfirmPayment extends Component {
           <thead>
             <div className="flex space-between thead">
               <p>Item Name</p>
-              <p>Price</p>
+              <p className="price">
+                <span>N</span> Price
+              </p>
             </div>
           </thead>
           <div className="items-payment">

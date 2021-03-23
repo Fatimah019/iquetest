@@ -60,3 +60,7 @@ hr {
 tr td {
   font-size: 24px;
 }
+.price span {
+  text-decoration: line-through;
+  text-decoration-style: double;
+}
